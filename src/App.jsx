@@ -5,7 +5,7 @@ import "./App.css";
 
 const App = () => {
   return (
-    <BrowserRouter basename="/shad-van-go">
+    <BrowserRouter>
       <header>
         <Link className="site-logo" to="/">
           Home
