@@ -4,6 +4,7 @@ import About from "./pages/About";
 import "./App.css";
 import "../server.js";
 import Vans from "./pages/Vans";
+import VanDetail from "./pages/VanDetail";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/vans" element={<Vans />} />
+        <Route path="/vans/:id" element={<VanDetail />} />
       </Routes>
     </BrowserRouter>
   );
