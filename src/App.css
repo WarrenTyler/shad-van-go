@@ -321,6 +321,12 @@ i[class*="van-type-"] {
   padding: 5px 20px;
 }
 
+.host-nav a.active-link {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #161616;
+}
+
 .host-nav a:hover {
   color: #161616;
   text-decoration: underline;
